@@ -42,8 +42,7 @@
 /* Header */
 
 header {
-    background-color: aquamarine;
-    height: 100px;
+    height: 70px;
 }
 
 #navbar {
@@ -66,18 +65,23 @@ header {
 
 li {
     display: flex;
+    color: white;
+    font-size: 20px;
 }
 
 .menu {
     display: flex;
+    vertical-align: middle;
 }
 
 .logo {
     text-align: center;
+    vertical-align: middle;
 }
 
 .azioni {
     text-align: right;
+    vertical-align: middle;
 }
 
 /* Main */
