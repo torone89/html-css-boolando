@@ -25,7 +25,7 @@
 
 .section-container {
     display: flex;
-    height: 700px;
+    height: 600px;
     max-width: 1200px;
     margin: 30px auto;
 }
@@ -38,15 +38,6 @@
 
 /* Utilities */
 
-.first-background {
-
-    background-color: rgb(194, 8, 8);
-}
-
-.second-background {
-
-    background-color: rgb(179, 235, 9);
-}
 
 /* Header */
 
@@ -94,23 +85,18 @@ li {
 .colonna {
     flex-basis: calc(100%/3);
     height: 600px;
-    background-color: #2bec04;
-    border: 1px black dashed;
+
 }
 
-.row-small {
+.small {
     height: 100px;
-    width: 100%;
-    background-color: #2bec04;
-    border: 1px black dashed;
+    width: 97%;
     margin: 4px;
 }
 
-.row-large {
+.large {
     height: 500px;
-    width: 100%;
-    background-color: #2bec04;
-    border: 1px black dashed;
+    width: 97%;
     margin: 4px;
 }
 
@@ -145,7 +131,18 @@ li {
     background-color: darkgreen;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 50px;
+
+}
+
+.sostenibilta-right {
+    color: white;
+    font-weight: bold;
+    padding: 2px 1px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
 
 }
 
@@ -182,6 +179,22 @@ li {
 
 h6 {
     margin-top: 2px;
+}
+
+h6 {
+    font-size: small;
+    font-style: initial;
+}
+
+h4 {
+    color: red;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: black;
+    font-size: medium;
+    font-style: italic;
 }
 
 /* Footer */
