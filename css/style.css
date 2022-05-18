@@ -232,5 +232,6 @@ footer {
 .menu-footer ul li {
     display: inline-block;
     margin-right: 4px;
+    font-size: 10px;
 
 }
