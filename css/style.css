@@ -25,7 +25,7 @@
 
 .section-container {
     display: flex;
-    height: 800px;
+    height: 700px;
     max-width: 1200px;
     margin: 30px auto;
 }
@@ -135,10 +135,39 @@ li {
 
 }
 
+/* hover */
+
 
 .relative {
     position: relative;
     cursor: pointer;
+}
+
+
+
+.first-img {
+    display: block;
+}
+
+.second-img {
+    display: none;
+}
+
+
+
+.cambioimmagine:hover .first-img {
+    display: none;
+}
+
+.cambioimmagine:hover .second-img {
+    display: block;
+}
+
+
+/* Style */
+
+h6 {
+    margin-top: 2px;
 }
 
 /* Footer */
