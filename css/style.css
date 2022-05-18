@@ -9,15 +9,84 @@
 
 /* Generic */
 
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
+.section-container {
+    display: flex;
+    height: 500px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
 /* Utilities */
 
+.first-background {
+
+    background-color: rgb(194, 8, 8);
+}
+
+.second-background {
+
+    background-color: rgb(179, 235, 9);
+}
 
 /* Header */
 
+header {
+    background-color: aquamarine;
+}
+
+#navbar {
+    height: 100px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #dc610f;
+
+
+}
+
+#navbar>div {
+
+    flex-basis: calc(100%/3);
+}
 
 /* Main */
 
+.colonna {
+    flex-basis: calc(100%/3);
+    background-color: #2bec04;
+    border: 1px black dashed;
+}
+
+.row-small {
+    height: 10%;
+    width: 100%;
+    background-color: #2bec04;
+    border: 1px black dashed;
+}
+
+.row-large {
+    height: 90%;
+    width: 100%;
+    background-color: #2bec04;
+    border: 1px black dashed;
+}
+
 
 /* Footer */
+
+footer {
+    height: 100px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
