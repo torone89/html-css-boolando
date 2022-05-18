@@ -10,15 +10,30 @@
 /* Generic */
 
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
+    height: 100px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu ul li {
+    display: inline-block;
 }
 
 .section-container {
     display: flex;
+    height: 800px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.row {
+    display: flex;
     height: 500px;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 /* Utilities */
@@ -37,17 +52,16 @@
 
 header {
     background-color: aquamarine;
+    height: 100px;
 }
 
 #navbar {
     height: 100px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
+    width: 100%;
+
     background-color: #dc610f;
     position: fixed;
-    top: 0;
-    left: 0;
+
 
 
 
@@ -78,25 +92,42 @@ li {
 
 .colonna {
     flex-basis: calc(100%/3);
+    height: 600px;
     background-color: #2bec04;
     border: 1px black dashed;
 }
 
 .row-small {
-    height: 10%;
+    height: 100px;
     width: 100%;
     background-color: #2bec04;
     border: 1px black dashed;
 }
 
 .row-large {
-    height: 90%;
+    height: 500px;
     width: 100%;
     background-color: #2bec04;
     border: 1px black dashed;
 }
 
-x
+/* Discount */
+
+.discount {
+    color: red;
+    font-weight: bold;
+    padding: 2px 1px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+
+}
+
+.relative {
+    position: relative;
+}
+
 /* Footer */
 
 footer {
