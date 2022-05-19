@@ -79,6 +79,12 @@ li {
     vertical-align: middle;
 }
 
+
+.azioni ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
 .azioni {
     text-align: right;
     vertical-align: middle;
